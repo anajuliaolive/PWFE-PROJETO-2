@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="CSS/ex2_g2.css">
+    <title>ex2_g2</title>
+</head>
+<body>
+    <h1>Cliníca Veterinária</h1>
+    Valor da Vacina: <input type="text" id="valor">
+
+    <h2>Possui Convênio?</h2>
+    Sim <input type="radio" id="sim" value="1" name="Te" checked onclick="selecionar()"> 
+    Nao <input type="radio" id="nao" value="2" name="Te" checked onclick="selecionar()">
+
+    <select id="plano">
+        <option value="vida">Vida Pet</option>
+        <option value="anima">Animal Planet</option>
+    </select>
+
+    <p id="preco"></p>
+    <p id="desconto"></p>
+    <button onclick="desconto()">Ver Preço</button> 
+<script src="JS/ex2_g2.js"></script>
+</body>
+</html>
